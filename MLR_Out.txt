@@ -1,0 +1,106 @@
+corrplot 0.92 loaded
+[1] "Y= Oil Lobbying"
+
+Call:
+lm(formula = Y ~ ., data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-210092  -67149  -23932   31211  503308 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept) -41184450   24533121  -1.679    0.101  
+NUCLEAR        411104     245135   1.677    0.101  
+COAL           414236     245271   1.689    0.099 .
+NATURAL.GAS    412950     245338   1.683    0.100  
+PETROLEUM      412509     245300   1.682    0.100  
+HYDRO          413242     245491   1.683    0.100  
+GEOTHERMAL     400309     239148   1.674    0.102  
+SOLAR          415072     249242   1.665    0.104  
+WIND           411533     245306   1.678    0.101  
+BIOMASS        408336     244573   1.670    0.103  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 124200 on 40 degrees of freedom
+Multiple R-squared:  0.2356,	Adjusted R-squared:  0.06367 
+F-statistic:  1.37 on 9 and 40 DF,  p-value: 0.2338
+
+[1] "Y= Oil Lobbying / Population"
+
+Call:
+lm(formula = Y ~ ., data = data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.12726 -0.03098 -0.01233  0.01855  0.27350 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept) -22.3925    15.0667  -1.486    0.145
+NUCLEAR       0.2231     0.1505   1.482    0.146
+COAL          0.2254     0.1506   1.496    0.142
+NATURAL.GAS   0.2243     0.1507   1.489    0.144
+PETROLEUM     0.2249     0.1506   1.493    0.143
+HYDRO         0.2253     0.1508   1.494    0.143
+GEOTHERMAL    0.2234     0.1469   1.521    0.136
+SOLAR         0.2226     0.1531   1.454    0.154
+WIND          0.2237     0.1507   1.485    0.145
+BIOMASS       0.2221     0.1502   1.479    0.147
+
+Residual standard error: 0.07629 on 40 degrees of freedom
+Multiple R-squared:  0.2919,	Adjusted R-squared:  0.1326 
+F-statistic: 1.832 on 9 and 40 DF,  p-value: 0.09219
+
+[1] "Y= Oil Lobbying / State GDP"
+
+Call:
+lm(formula = Y ~ ., data = data)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-2.718e-06 -5.705e-07 -2.359e-07  3.433e-07  7.138e-06 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -4.686e-04  3.087e-04  -1.518    0.137
+NUCLEAR      4.671e-06  3.084e-06   1.514    0.138
+COAL         4.718e-06  3.086e-06   1.529    0.134
+NATURAL.GAS  4.692e-06  3.087e-06   1.520    0.136
+PETROLEUM    4.699e-06  3.086e-06   1.522    0.136
+HYDRO        4.711e-06  3.089e-06   1.525    0.135
+GEOTHERMAL   4.669e-06  3.009e-06   1.552    0.129
+SOLAR        4.674e-06  3.136e-06   1.491    0.144
+WIND         4.676e-06  3.087e-06   1.515    0.138
+BIOMASS      4.660e-06  3.077e-06   1.514    0.138
+
+Residual standard error: 1.563e-06 on 40 degrees of freedom
+Multiple R-squared:  0.2932,	Adjusted R-squared:  0.1342 
+F-statistic: 1.844 on 9 and 40 DF,  p-value: 0.09001
+
+[1] "Y= Oil Lobbying / State.GDP.Q4.2021 / Population"
+
+Call:
+lm(formula = Y ~ ., data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.7717 -1.4626 -0.4339  0.4294 12.7131 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept) -939.105    568.138  -1.653    0.106
+NUCLEAR        9.375      5.677   1.651    0.106
+COAL           9.447      5.680   1.663    0.104
+NATURAL.GAS    9.411      5.682   1.656    0.105
+PETROLEUM      9.397      5.681   1.654    0.106
+HYDRO          9.420      5.685   1.657    0.105
+GEOTHERMAL     9.140      5.538   1.650    0.107
+SOLAR          9.476      5.772   1.642    0.108
+WIND           9.373      5.681   1.650    0.107
+BIOMASS        9.329      5.664   1.647    0.107
+
+Residual standard error: 2.877 on 40 degrees of freedom
+Multiple R-squared:  0.2328,	Adjusted R-squared:  0.06022 
+F-statistic: 1.349 on 9 and 40 DF,  p-value: 0.2436
