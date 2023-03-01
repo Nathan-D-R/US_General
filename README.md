@@ -8,4 +8,4 @@ The output will be MLR.pdf
 
 We can run the RMD file using: `Rscript -e "rmarkdown::render('US_General.rmd')"`
 
-The output will be US_General.pdf
+The output will be US_General.html
